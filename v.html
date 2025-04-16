@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eetify</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3d55b;
+            color: #3d0d00;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 220px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background-color: #9c1c1c;
+            color: #fff;
+            font-size: 1rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #7e1515;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+<div class="logo-container">
+    <img src="img.png" alt="Eetify Logo" class="logo" />
+    <h1>Welcome to Eetify</h1>
+    <p>Where Punjabi beats meet global flavors.</p>
+    <button class="btn" onclick="getStarted()">Start Listening</button>
+</div>
+
+<footer>
+    &copy; 2025 Eetify. All rights reserved.
+</footer>
+
+<script>
+    function getStarted() {
+        alert("Redirecting you to the Eetify experience!");
+        // window.location.href = "main.html"; // Uncomment when main site is ready
+    }
+</script>
+</body>
+</html>
